@@ -28,7 +28,7 @@ app.post('/send-email', (req, res) => {
     html: `
       <div style="border: 1px solid black; padding: 20px; width: 50%; margin: auto">
         <h3>A New Report For Report!</h3>
-        <p>Message: ${name}</p>
+        <p>Name: ${name}</p>
         <p>Message: ${message}</p>
         <p>Skill: ${skill}</p>
         <a style="background-color: #1DA1F2; color: white; padding: 10px; text-decoration: none; border-radius: 5px;"
